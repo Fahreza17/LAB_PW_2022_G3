@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(0, 0, 0);
+
+}
+.navbar { 
+    font-family: 𝑻𝒚𝒑𝒆 𝒔𝒐𝒎𝒆𝒕𝒉𝒊𝒏𝒈 𝒕𝒐 𝒔𝒕𝒂𝒓𝒕;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background:rgb(21, 21, 25);
+    font-size:20px;
+    margin: auto;
+    text-align: center;
+}   
+label{
+    font-family: Rockwell;
+    font-size: 20pt;
+     color: rgb(255, 243, 243);
+     margin: 10px;
+     padding: 5px;
+     float: left;
+}
+.navbar ul{
+    background:none;
+    display: block;
+    padding: 0 20px;
+    margin: 0px;
+    float: right;
+    list-style:none;
+}
+.navbar ul li{
+    float: right  ;
+}
+.navbar ul l:hover{
+    background-color:darkorange;
+}
+.navbar ul li:hover a{
+    color:darkorange;
+    box-shadow: inset 0px 0px 5px darkorange;
+    border-radius: 12px;
+}
+.navbar ul li a{
+    padding: 20px;
+    color:#ddd;
+    text-decoration: none;
+    display: block;
+}
+p.p1 {
+    font-size: 30px;
+    font-family: 𝐓𝐡𝐞 𝐛𝐨𝐥𝐝 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐬𝐞𝐫𝐢𝐟𝐟𝐞𝐝;
+    color: black;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 100px;
+    padding: 250px;
+}
+
+p {
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+    font-family:  𝑺𝒆𝒓𝒊𝒇𝒔 𝒂𝒏𝒅 𝒊𝒕𝒂𝒍𝒊𝒄𝒔 𝑻𝒉𝒊𝒔 𝒊𝒔 𝒄𝒓𝒂𝒛𝒚!;
+}
+
+.p3 {
+  float: left;
+  width:500px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 150px;
+  text-align: justify;
+  color:rgb(255, 252, 247);
+  
+}
+.p4 {
+  float: left;
+  width:500px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 150px;
+  text-align: justify;
+  color:rgb(255, 253, 251);
+}
+.p5 {
+  float: left;
+  width:500px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  color:rgb(255, 242, 227);
+}
+.p6 {
+  width:500px;
+  float: left;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  text-align: justify;
+  color:rgb(250, 249, 249);
+}
+
+.judul1 {
+  color:rgb(254, 248, 240);
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  height: 30px;
+  padding: 50px;
+  font-family: 𝕱𝖗𝖆𝖐𝖙𝖚𝖗 𝕭𝖔𝖑𝖉 𝖎𝖘 𝖆𝖑𝖘𝖔 𝖆 𝖋𝖔𝖓𝖙 𝖘𝖙𝖞𝖑𝖊 𝖔𝖋 𝕲𝖊𝖗𝖒𝖆𝖓𝖞;
+}
+
+.judul2 {
+  color:rgb(249, 245, 240);
+  font-size: 3em;
+  text-align: center;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid rgb(255, 253, 250);
+  float: left;
+  width: 243  px;
+}
+
+.gallery:hover {
+  border: 1px solid darkorange;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+.desc {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 15px;
+  text-align: center;
+  color:whitesmoke;
+}
