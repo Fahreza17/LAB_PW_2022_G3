@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>WELCOME TO BLACKJACK</h1>
+
+    <div id="dealer-cards">Dealer</div>
+    <div id="player-cards"></div>
+
+    <div id="control">
+        <form name="blackjack" onSubmit="newGame(); return false;">
+            <input type='submit' id="new-game-button" value="playagain" style="margin-left:20px;" />
+            <input type="button" id="hit-button" value="hit" onclick="hit();" disabled />
+            <input type="button" id="stand-button" value="Stand" onclick="stand();" disabled />
+            <br>
+            <br>
+            <div id="player-money">
+                BET:
+            </div>
+            <input type="number" id="bet" min="1" max="5000" />
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <h2 id="message-board"></h2>
+    <script src="blackjack.js"></script>
+</body>
