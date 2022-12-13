@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas 4</title>
+    </head>
+    <body>
+        <script>
+            var z = prompt("Masukkan kalimat..");
+            var counts = {};
+            
+            for (var i = 0; i < z.length; i++) {
+                var y = z.charAt(i);
+
+                if (y == ' ') {
+                    y = 'spasi' ;
+                }
+                counts[y] == undefined ? counts[y] = 1 : counts[y]++;
+                
+            }
+            for ( var x in counts) {
+                console.log(x + '=' + counts[x]);
+            }
+        </script>
+    </body>
+</html>

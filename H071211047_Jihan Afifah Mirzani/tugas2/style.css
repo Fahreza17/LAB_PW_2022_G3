@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(186, 135, 160);
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color:  rgb(98, 31, 52);
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  li a:hover {
+    background-color: rgb(242, 239, 236);
+  }
+.jumbotron {
+   background-image: url("makeup.jpg");
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   height: 600px;
+}
+.gambar {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(220, 234, 230);
+    font: size 30px;;
+}
+.judul {
+    position: relative;
+    text-align: center;
+    color: rgb(192, 13, 88);
+    font-size: 25px;
+}
+.main {
+  float:left;
+  width:50%;
+  padding: bottom 25px;
+  margin-left: 25px;
+  font-size: large;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sidebar {
+  float:right;
+  width:50%;
+  padding: bottom 25px;
+  margin-left: 25px;
+  font-size: large;
+}
+.judul-galery {
+  column-span: all;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bolder;
+  color: rgb(105, 26, 51);
+}
+.akhir {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 50px;
+}
+.akhir img {
+  border-radius: 25px;
+  width: 98%;
+  height: 80%;
+}
+.galery h2 {
+  margin-bottom: 12px;
+  text-align: center;
+  color: rgb(105, 26, 51);
+}

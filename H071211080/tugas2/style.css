@@ -1,0 +1,582 @@
+@font-face {
+    font-family:"Rubik Dirt" ;
+   src: url('RubikDirt-Regular.ttf.ttf');
+}
+
+.greet{
+   padding-top:150px;
+   color:azure;
+   padding-left:35%;
+   font-family: "Rubik Dirt";
+   text-shadow: 0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac,
+    0 0 80px #ff7bac,
+    0 0 90px #ff7bac;
+   
+}
+
+.wrapper{
+    
+    width:100%;
+    height:500px;
+    background-image: url(serigala.jpg);
+    background-size: cover;
+    background-position: top;
+}
+header{
+    height:200px;
+    display:block;
+    width:100%;    
+    background:linear-gradient(90deg,#0E1946,#1D3C69);
+    overflow: hidden;
+}
+
+header .judul img{
+    width:50px;
+    height:50px;
+    position:relative;
+    bottom:60px;
+    left:80px;
+    background-color: #080B35;
+}
+
+.judul{
+    position: relative;
+    top:30px;
+    padding-left: 150px;
+    text-shadow: 0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac,
+    0 0 80px #ff7bac,
+    0 0 90px #ff7bac;
+}
+
+dl{
+    width:auto;
+    height:auto;
+}
+dl:hover{
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+}
+header ul{
+    position: relative;
+    bottom: 15px;
+    font-size: medium;
+    font-family:cursive;
+    text-align: center;
+}
+
+.title-article{
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+    bottom:25px;
+    left:180px;
+    position:relative;
+    width:50px;
+    height:30px;
+    font-family: "Rubik Dirt";
+}
+.deskripsi{
+    background:linear-gradient(90deg,#152A5D,#0E1946,#080B35);
+    height:1500px;
+    padding-top:50px;
+}
+
+.sub-article{
+    width:50%;
+    height:600px;
+    margin-left: 100px;;
+    display:flex;
+    flex-direction: column;
+    padding-top:280px;
+    justify-content: space-around;
+    
+}
+
+
+.sub1{
+    font-family:cursive;
+    color:red;
+    width:250px;
+    height:500px;
+    font-size: large;
+    text-align:left;
+    padding:10px;
+
+
+}
+
+
+
+.sub3{
+    margin-left: 10px;;
+    font-family:cursive;
+    color:red;
+    width:250px;
+    height:500px;
+    font-size: large;
+    text-align:left;
+    margin-top:180px;
+}
+
+.gallery{
+    width :100%;
+    height:2000px;
+    background:linear-gradient(90deg,#152A5D,#0E1946,#080B35);
+    display:flex;
+    flex-direction: column;
+
+    
+}
+
+.f1{
+    margin-left:120px;
+    width:50%;
+    height:500px;
+    
+}
+
+
+.f2{
+    margin-left:120px;
+    width:50%;
+    height:500px;
+
+}
+
+.f3{
+    margin-left:120px;
+    width:50%;
+    height:500px;;
+}
+
+.f4{
+    margin-left:120px;
+    width:50%;
+    height:500px;
+
+}
+ .semif1{
+    background-image: url(whitewolf.jpg);
+    background-size: cover;
+    background-position: right;
+    width:100%;
+    height:200px;
+    border-radius:30px;
+}
+
+.semif2{
+    background-image: url(wolf.jpg);
+    background-size: cover;
+    background-position: left;
+    width:100%;
+    height:200px;
+    border-radius:30px;
+}
+
+.semif3{
+    background-image: url(siberiawolf.jpg);
+    background-size: cover;
+    background-position: left;
+    width:100%;
+    height:200px;
+    border-radius:30px;
+}
+
+.semif4{
+    background-image: url(baffinwolf.jpg);
+    background-size: cover;
+    background-position: top right;
+    width:100%;
+    height:200px;
+    border-radius:30px;
+}
+
+ .f1 h3{
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+    font-family: "Rubik Dirt";
+    position: relative;
+    left: 30px;
+}
+
+.f2 h3{
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+    font-family: "Rubik Dirt";
+    position: relative;
+    left: 30px;
+}
+
+.f3 h3{
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+    font-family: "Rubik Dirt";
+    position: relative;
+    left: 30px;
+}
+
+.f4 h3{ 
+    text-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px blue,
+    0 0 90px blue;
+    font-family: "Rubik Dirt";
+    position: relative;
+    left: 30px;
+}
+
+.f1 p{
+    color:greenyellow;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.f2 p{
+    color:greenyellow;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.f3 p{
+    color:greenyellow;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.f4 p{
+    color:greenyellow;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.semif2:hover{
+    transform: scale(1.2);
+ }
+
+ .semif1:hover{
+    transform: scale(1.2);
+ }
+
+ .semif3:hover{
+    transform: scale(1.2);
+ }
+
+ .semif4:hover{
+    transform: scale(1.2);
+ }
+
+
+@media  (min-width:900px){
+
+    header{
+    align-items: baseline;
+    padding-bottom: 40px;
+    width:100%;
+    display :flex;
+    height:20px;
+    justify-content: space-between;
+    background:linear-gradient(90deg,#0E1946,#1D3C69);
+    overflow: hidden;
+    }
+    header ul{
+        top:0;
+        position: relative;
+        font-family:cursive;
+        width:10%;
+        display: flex;
+        justify-content: space-around;
+        right:5px;
+     
+        
+    
+    }
+    header .judul img{
+        width:50px;
+        height:50px;
+        position:relative;
+        bottom:60px;
+        left:80px;
+        background-color: #080B35;
+    }
+    .judul{
+        position: relative;
+        top:0;
+        padding-left: 30px;
+        text-shadow: 0 0 5px #ff7bac,
+        0 0 10px #ff7bac,
+        0 0 20px #ff7bac,
+        0 0 40px #ff7bac,
+        0 0 80px #ff7bac,
+        0 0 90px #ff7bac;
+    }
+    .greet{
+        padding-top:200px;
+        color:azure;
+        padding-left:35%;
+        font-family: "Rubik Dirt";
+        
+     }
+     
+     .greet1{
+         color:azure;
+         padding-left:43%;
+         font-family: "Rubik Dirt";
+     }
+     .sub-article{
+        width:50%;
+        height:700px;
+        margin-left: 310px;;
+        display:flex;
+        flex-wrap: wrap;
+        padding-top:50px;
+        justify-content: space-around;
+        
+    }
+    
+    
+    .sub1{
+        font-family:cursive;
+        color:red;
+        width:250px;
+        height:500px;
+        font-size: large;
+        text-align:left;
+        padding:10px;
+        margin-bottom: 80px;
+    
+    
+    }
+    
+ 
+    
+    .sub3{
+        position: relative;
+        bottom:128px;
+        font-family:cursive;
+        color:red;
+        width:250px;
+        height:500px;
+        font-size: large;
+        text-align:left;
+
+    }
+    
+ 
+    .title-article{
+        text-shadow: 0 0 5px blue;
+        left:560px;
+        top:35px;
+        position:relative;
+        width:50px;
+        height:30px;
+        font-family: "Rubik Dirt";
+    }
+    .deskripsi{
+        background:linear-gradient(90deg,#152A5D,#0E1946,#080B35);
+        height:1000px;
+        padding-top:50px;
+    }
+
+    .gallery{
+        width :100%;
+        height:500px;
+        background:linear-gradient(90deg,#152A5D,#0E1946,#080B35);
+        display:flex;
+        justify-content: space-around;
+        
+    }
+    
+    .f1{
+        position: relative;
+        width:20%;
+        height:500px;
+        top:600px;
+        right:100px;
+        
+    }
+    
+    
+    .f2{
+        position:relative;
+        width:20%;
+        height:500px;
+        top:150px;
+        left:200px;
+    
+    }
+    
+    .f3{
+        position:relative;
+        width:20%;
+        height:500px;
+        bottom:260px;
+        left:500px;
+    }
+    
+    .f4{
+        position: relative;
+        bottom: 710px;
+        width:20%;
+        height:500px;
+        left:800px;
+    
+    }
+     .semif1{
+        background-image: url(whitewolf.jpg);
+        background-size: cover;
+        background-position: right;
+        width:100%;
+        height:200px;
+        border-radius:30px;
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+    }
+    
+    .semif2{
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+        background-image: url(wolf.jpg);
+        background-size: cover;
+        background-position: left;
+        width:100%;
+        height:200px;
+        border-radius:30px;
+    }
+    
+    .semif3{
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+        background-image: url(siberiawolf.jpg);
+        background-size: cover;
+        background-position: left;
+        width:100%;
+        height:200px;
+        border-radius:30px;
+    }
+    
+    .semif4{
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+        background-image: url(baffinwolf.jpg);
+        background-size: cover;
+        background-position: top right;
+        width:100%;
+        height:200px;
+        border-radius:30px;
+    }
+    
+     .f1 h3{
+        text-shadow: 0 0 5px blue,
+        0 0 10px blue,
+        0 0 20px blue,
+        0 0 40px blue,
+        0 0 80px blue,
+        0 0 90px blue;
+        font-family: "Rubik Dirt";
+        position: relative;
+        left: 70px;
+    }
+    
+    .f2 h3{
+        text-shadow: 0 0 5px blue,
+        0 0 10px blue,
+        0 0 20px blue,
+        0 0 40px blue,
+        0 0 80px blue,
+        0 0 90px blue;
+        font-family: "Rubik Dirt";
+        position: relative;
+        left: 70px;
+    }
+    
+    .f3 h3{
+        text-shadow: 0 0 5px blue,
+        0 0 10px blue,
+        0 0 20px blue,
+        0 0 40px blue,
+        0 0 80px blue,
+        0 0 90px blue;
+        font-family: "Rubik Dirt";
+        position: relative;
+        left: 50px;
+    }
+    
+    .f4 h3{ 
+        text-shadow: 0 0 5px blue,
+        0 0 10px blue,
+        0 0 20px blue,
+        0 0 40px blue,
+        0 0 80px blue,
+        0 0 90px blue;
+        font-family: "Rubik Dirt";
+        position: relative;
+        left: 70px;
+    }
+    
+    .f1 p{
+        color:greenyellow;
+        font-family: cursive;
+        font-size: medium;
+    }
+    
+    .f2 p{
+        color:greenyellow;
+        font-family: cursive;
+        font-size: medium;
+    }
+    
+    .f3 p{
+        color:greenyellow;
+        font-family: cursive;
+        font-size: medium;
+    }
+    
+    .f4 p{
+        color:greenyellow;
+        font-family: cursive;
+        font-size: medium;
+    }
+     .semif2:hover{
+        transform: scale(1.2);
+     }
+
+     .semif1:hover{
+        transform: scale(1.2);
+     }
+
+     .semif3:hover{
+        transform: scale(1.2);
+     }
+
+     .semif4:hover{
+        transform: scale(1.2);
+     }
+    
+}

@@ -1,0 +1,136 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color :whitesmoke;
+}
+
+.navbar{
+    background-color: whitesmoke;
+}
+.li-0{
+    background-color: whitesmoke;
+}
+.li-1{
+    float: left;
+    color: maroon;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: initial;
+
+}
+.ul-navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.li-navbar{
+    background-color: black;
+    border: 1px solid brown;
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    color: whitesmoke;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    border-radius: 15px;
+}
+#bg-aot{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color:maroon;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 150px;
+    background-image: url(oot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.s1 {
+    float: left;
+    width:500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 150px;
+    text-align: justify;
+    color:maroon;
+    
+}
+.s2 {
+    float: left;
+    width:500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 150px;
+    text-align: justify;
+    color:maroon;
+}
+.s3 {
+    float: left;
+    width:500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    color:maroon;
+}
+.s4 {
+    width:500px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    text-align: justify;
+    color:maroon;
+}
+.head1{
+    color: black;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+.head2{
+    color: black;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+div.warriors{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 197px;
+    margin-top: 80px;
+}
+div.warriors:hover{
+    border: 1px solid red;
+}
+div.warriors img{
+    width:100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.desc{
+    color: maroon;
+    font-size: 1em;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}

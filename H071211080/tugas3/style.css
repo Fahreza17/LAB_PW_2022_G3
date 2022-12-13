@@ -1,0 +1,142 @@
+*{
+    background-color: black;
+}
+
+.navbar-toggler{
+    width:20px;
+    height:20px;
+    position: relative;
+    transition:.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline:none;
+    box-shadow:none;
+    border:0;
+
+}
+
+.navbar-toggler-span{
+    margin:0;
+    padding:0;
+}
+
+.toggler-icon{
+    display:block;
+    position:absolute;
+    height:3px;
+    width:100%;
+    background:#d3531a;
+    border-radius:1px;
+    opacity:1;
+    left:0;
+    transform:rotate(0deg);
+    transition:.25s ease-in-out
+}
+.middle-bar{
+    margin-top:0px;
+}
+.navbar-toggler .top-bar{
+    margin-top:0px;
+    transform:rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top:0px;
+    transform:rotate(-135deg);
+}
+
+.collapsed .top-bar{
+    margin-top:-20px;
+    transform:rotate(0deg);
+}
+
+.collapsed .middle-bar{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+.collapsed .bottom-bar{
+    margin-top:20px;
+    transform:rotate(0deg);
+}
+
+ .collapsed .toggler-icon{
+    background:linear-gradient(90deg,#C33764,#1D2671)
+}
+
+.trophy{
+    background-color: black;
+}
+.trophy1{
+    background-image: url(trophy1.jpg);
+    background-size: cover;
+    height:420px;
+    background-position:right;   
+    position: relative;
+    top:10px;
+}
+.trophy2{
+    background-image: url(trophy2.jpg);
+    background-size: cover;
+    height:420px;
+    background-position:top;   
+    position: relative;
+    top:10px;
+}
+.pict1 p{
+    position: relative;
+    top:290px
+}
+
+.pict2 p{
+    position: relative;
+    top:40px
+}
+.pict1{
+    background-image: url(pict1.jpg);
+    background-size: cover;
+    height:500px;
+    background-position:right;   
+    position: relative;
+    top:70px;
+}
+.pict2{
+    background-image: url(pict2.jpg);
+    background-size: cover;
+    height:500px;
+    background-position: right;   
+}
+.wrap{
+    overflow: hidden;
+    background-color: black;
+ }
+#img1{
+    background-image: url(firstp.jpg);
+    background-size: cover;
+    height:500px;
+    background-position: right;
+}
+  
+#img2{
+    background-image: url(scndp.jpg);
+    background-size: cover;
+    height:500px;
+    background-size: cover;
+    background-position: top;
+}
+
+#img3{
+    background-image: url(thirdp.jpg);
+    background-size: cover;
+    height:500px;
+    background-size: cover;
+    background-position: right;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <script>
+        //Angka yang dikalikan
+        var angka = parseInt(prompt("Perkalian berapa ? "));
+        if (!isNaN(angka)) {
+            var count = prompt("Ingin dikalikan sampai berapa ? ");
+            if (!isNaN(count)) {
+                for (let i = 1; i <= count; i++) {
+                    console.log(i + " x " + angka + " = " + i * angka);
+                }
+            } else {
+                console.log("Bukan Angka");
+            }
+        } else {
+            console.log("Bukan Angka");
+        }
+    </script>
+</head>
+
+<body></body>
+
+</html>

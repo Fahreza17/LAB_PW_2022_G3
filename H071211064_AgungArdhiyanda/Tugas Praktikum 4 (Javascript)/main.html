@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <script>
+
+        while (true) {
+            var answer1;
+            var answer2;
+            var name = prompt("Masukkan Nama");
+            answer = prompt("Apakah sudah mengumpulkan tugas praktikum? YES atau NO");
+            answer = answer.toUpperCase();
+            //Jawaban Ketika 'YES'
+            if (answer == 'YES') {
+                answer2 = prompt("Sudah berapa kali asistensi? 1 atau 2");
+                if (answer2 == '1') {
+                    console.log("Asistensi sekali lagi ya " + name);
+                    break;
+                }
+                if (answer2 == '2') {
+                    console.log("Hebat kamu " + name + " :)");
+                    break;
+                }
+                //Jawaban Ketika 'NO'
+            } else if (answer == 'NO') {
+                console.log("Asistensi Dulu Ya " + name);
+                break;
+                // Jawaban Ketika bukan 'YES' ATAU 'NO' maka akan melakukan perulangan kembali sampai
+                //Kondisi jawaban 'YES' atau 'NO'
+            } else {
+                continue;
+            }
+        }
+    </script>
+</head>
+
+<body></body>
+
+</html>
